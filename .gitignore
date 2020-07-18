@@ -1,0 +1,21 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# Compiled class file
+*.class
+target
+# Log file
+*.log
+.mvn
+
+# BlueJ files
+*.ctxt
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+##----------idea----------
+*.iml
+.idea
+*.ipr
+*.iws
+

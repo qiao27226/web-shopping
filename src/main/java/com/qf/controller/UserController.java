@@ -1,6 +1,5 @@
 package com.qf.controller;
 
-import com.qf.note.CheckToken;
 import com.qf.pojo.TbUser;
 import com.qf.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

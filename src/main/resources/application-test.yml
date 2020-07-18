@@ -10,6 +10,7 @@ mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 #自定义属性配置
+
 shopping:
   redis:
     host: 39.99.208.213

@@ -18,7 +18,6 @@ public class InterceptorConfig implements WebMvcConfigurer{
     //此处注入JedisCore
     @Autowired
     private JedisCore jedisCore;
-
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         //设置拦截器并指定拦截路径

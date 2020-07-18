@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    derver: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.99.208.213:3306/shopping?serverTimezone=Asia/Shanghai&characterEncoding=utf-8
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+ mapper-locations: classpath*:mapper/*.xml
+ configuration:
+   log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#自定义属性配置
+shopping:
+  redis:
+    host: 39.99.208.213
+    port: 6379
+    pass: 123456
+
+  #秘钥
+  aes:
+    passkey: V3AoRJH72SOHq6sQiW7xRg==
